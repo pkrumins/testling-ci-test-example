@@ -1,5 +1,5 @@
 module.exports.timesTwo = function (list) {
-    return list.forEach(function (x) { return x*2 });
+    return list.map(function (x) { return x*2 });
 }
 
 module.exports.timesThree = function (list) {
