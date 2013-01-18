@@ -1,0 +1,47 @@
+{
+    "name" : "testling-ci-test-example",
+    "version" : "0.0.1",
+    "description" : "run a testling-ci cross-browser test",
+    "main" : "index.js",
+    "directories" : {
+        "tests" : "tests"
+    },
+    "dependencies" : {},
+    "devDependencies" : {
+        "tap" : "~0.3.0",
+        "tape" : "~0.0.2"
+    },
+    "scripts" : {
+        "test" : "tap test/*.js"
+    },
+    "testling" : {
+        "files" : "test/*.js",
+        "browsers" : {
+            "ie" : [ 6, 7, 8, 9, 10 ],
+            "ff" : [ 3.5, 10, 15.0, 16.0, 17.0 ],
+            "chrome" : [ 10, 20, 21, 22, 23 ],
+            "safari" : [ 5.1 ],
+            "opera" : [ 10, 11, 12 ]
+        }
+    },
+    "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/pkrumins/testling-ci-test-example.git"
+    },
+    "homepage" : "https://github.com/pkrumins/testling-ci-test-example",
+    "keywords" : [
+        "testling",
+        "example",
+        "test",
+        "testing",
+        "cross browser tests",
+        "cross browser testing",
+        "ie ff chrome safari opera"
+    ],
+    "author" : {
+        "name" : "Peteris Krumins",
+        "email" : "peteris.krumins@gmail.com",
+        "url" : "http://catonmat.net"
+    },
+    "license" : "MIT"
+}
