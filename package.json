@@ -12,10 +12,10 @@
         "tape" : "~0.0.2"
     },
     "scripts" : {
-        "test" : "tap test/*.js"
+        "tests" : "tap tests/*.js"
     },
     "testling" : {
-        "files" : "test/*.js",
+        "files" : "tests/*.js",
         "browsers" : {
             "ie" : [ 6, 7, 8, 9, 10 ],
             "ff" : [ 3.5, 10, 15.0, 16.0, 17.0 ],
